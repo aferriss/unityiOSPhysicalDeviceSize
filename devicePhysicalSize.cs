@@ -74,7 +74,6 @@ public class devicePhysicalSize : MonoBehaviour {
 	private float kiPad12_9InchScreenHeight = 0.2622f;
 
 
-	// Use this for initialization
 	void Start () {
 		model = SystemInfo.deviceModel;
 
@@ -156,14 +155,9 @@ public class devicePhysicalSize : MonoBehaviour {
 			{ "iPod7,1" , iPodTouch6Gen }
 		};
 
-//		Debug.Log (SystemInfo.deviceModel);
 		getPhysicalSize();
 	}
 	
-	// Update is called once per frame
-	void Update () {
-		
-	}
 
 	void getPhysicalSize(){
 		int deviceCode;
